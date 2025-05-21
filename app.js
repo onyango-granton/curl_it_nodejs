@@ -3,8 +3,8 @@ const https = require('https');
 const http = require('http');
 const url = require('url');
 
-const inputUrl = process.argv[2];
-const token = process.argv[3];
+const inputUrl = 'valid_endpoint';
+const token = 'valid_token'
 
 if (!inputUrl || !token) {
   console.error('Usage: node curl-auth-native.js <URL> <Bearer_Token>');
